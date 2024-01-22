@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
 body{
-    background-color: #faeeee91;
+    background-image: url(https://images5.alphacoders.com/523/523085.jpg);
+    background-size: ;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 div.container{
     height: 600px;
@@ -9,14 +12,33 @@ div.container{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    transition: 2s;
+    margin-bottom: -235px;
 }
 button{
     height: 100px;
     width: 100px;
     border-radius: 10px;
-    border: 4px line black;
-    margin: auto;
+    border: 2px solid black;
+    margin: 3px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+button#dia{
+    background-image: url(https://img.freepik.com/vetores-gratis/um-modelo-de-adesivo-com-o-sol-em-estilo-cartoon-isolado_1308-65480.jpg);
+    background-size: 100px;
+    background-position: center;
+    
+}
+button#neutrobut{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/11314/11314388.png);
+    background-size: 100px;
+    background-position: center;
+}
+button#noite{
+    background-image: url(https://play-lh.googleusercontent.com/13bG-yQS8wU5YKOEqAAC0Xe7N8RE4HNaKQ7-VTOMMaVsBtQM2G3jAXuan7shKRUDQg=w240-h480-rw);
+    background-size: 100px;
+    background-position: center;
+
 }
 main{
     height: 700px;
