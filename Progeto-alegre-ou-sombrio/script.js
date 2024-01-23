@@ -2,9 +2,10 @@ function mudardia(){
     let image = document.getElementById("neutro");
     image.src = "botdia.png";
     let corpoPag = document.body;
-    corpoPag.style.backgroundImage = "url('https://initiate.alphacoders.com/images/466/stretched-1920-1080-4664.jpg?2082')";
+    corpoPag.style.backgroundImage = "url('dia.jpg')";
     body.style.backgroundPosition = "center center";
-    body.style.backgroundAttachment = "fixed";
+    bady.style.backgroundSize = 'cover'
+    body,style.backgroundAttachment = 'fixed'
 }
 function mudarnoite(){
     let image = document.getElementById("neutro");
