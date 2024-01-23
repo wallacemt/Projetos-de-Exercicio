@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exibir Imagem</title>
+</head>
+<body>
+
+    <div class="header">
+        <video autoplay loop muted class="video-background">
+            <source src="Netflix Intro Remake.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+        <div class="overlay"></div>
+        <img src="500x500-removebg-preview.png" alt="Logo da Página" class="logo">
+        <div class="container">
+                <label for="imageInput">Digite o URL do seu Filme:</label>
+                <input type="text" id="imageInput" placeholder="Cole o URL aqui">
+                <button onclick="exibirImagem()">Exibir Imagem</button>
+                <a href="Site02/index.html"><img src="proximo.png" alt="proximo" style="background-color: white;"></a>
+                <div id="imagemExibida"></div>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
