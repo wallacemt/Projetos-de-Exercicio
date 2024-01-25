@@ -1,43 +1,53 @@
 @charset "UTF-8";
 
 body{
-    background-image: url(imagens/neutro.jpg);
+    background-image: url(neutro.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+    margin: auto;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+
 }
 div.container{
     height: 600px;
-    width:  600px;
+    width:  400px;
     margin: auto;
+    padding-left: 10px;
     text-align: center;
     margin-bottom: -235px;
+    align-items: center;
 }
 button{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 70px;
     border-radius: 10px;
     border: 2px solid black;
     cursor: pointer;
 }
 button#dia{
     background-image: url(imagens/esquerda.png);
-    background-size: 100px;
+    background-size: 75px; 
     background-position: center;
-    margin: 0px 10px 0px 206px;
+    margin: 0px 10px 0px 18vh;
 }
-
+img#neutro{
+    height:500px;
+    width: 420px;
+    margin: auto;
+}
 button#noite{
     background-image: url(imagens/direita.png);
-    background-size: 100px;
+    background-size: 75px;
     background-position: center;
-   
-
 }
 main{
-    height: 700px;
-    width:  600px;
-    position: relative;
+    height: 50vh;
+    width:  50vh;
     margin: auto;
+    position: relative;
 }

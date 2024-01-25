@@ -1,4 +1,13 @@
+var somAtual = null;
+
 function mudardia(){
+    if(somAtual !== null){
+        somAtual.pause();
+    }
+
+    var som = document.getElementById("som1")
+    som.play();
+    somAtual = som;
     let image = document.getElementById("neutro");
     image.src = "botdia.png";
     let corpoPag = document.body;
@@ -6,18 +15,23 @@ function mudardia(){
     body.style.backgroundPosition = "center center";
     bady.style.backgroundSize = 'cover'
     body,style.backgroundAttachment = 'fixed'
+
+    var som2 = document.getElementById("som2");
+    som2.pause();
 }
 function mudarnoite(){
+    if (somAtual !== null) {
+        somAtual.pause();
+    }
+
+    var som = document.getElementById("som2")
+    som.play()
+    somAtual = som;
     let image = document.getElementById("neutro");
-    let corpoPag = document.getElementById("corpo")
+    let corpoPag = document.body
     image.src="botnoite.png"
-    corpoPag.style.backgroundColor = 'black'
-}
-function neutrobut(){
-    let image = document.getElementById("neutro");
-    let corpoPag = document.body;
-    image.src="botaoneoutro-removebg-preview.png"
-    corpoPag.style.backgroundImage = "url('https://images5.alphacoders.com/523/523085.jpg')";
-    body.style.backgroundPosition = "center center";
-    body.style.backgroundAttachment = "fixed";
+    corpoPag.style.backgroundImage = "url('noite.jpg')";
+
+    var som1 = document.getElementById("som1");
+    som1.pause();
 }
