@@ -34,6 +34,7 @@ button#dia{
     background-size: 75px; 
     background-position: center;
     margin: 0px 10px 0px 18vh;
+    background-repeat: no-repeat;
 }
 img#neutro{
     height:500px;
@@ -44,6 +45,7 @@ button#noite{
     background-image: url(imagens/direita.png);
     background-size: 75px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 main{
     height: 50vh;
