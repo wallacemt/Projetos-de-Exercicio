@@ -11,7 +11,7 @@ function mudardia(){
     let image = document.getElementById("neutro");
     image.src = "imagens/botdia.png";
     let corpoPag = document.body;
-    corpoPag.style.backgroundImage = "url('imagens/dia.jpg')";
+    corpoPag.style.backgroundImage = "url('imagens/dia-full.jpg')";
     body.style.backgroundPosition = "center center";
     bady.style.backgroundSize = 'cover'
     body,style.backgroundAttachment = 'fixed'
@@ -28,9 +28,9 @@ function mudarnoite(){
     som.play()
     somAtual = som;
     let image = document.getElementById("neutro");
-    let corpoPag = document.body
     image.src="imagens/botnoite.png"
-    corpoPag.style.backgroundImage = "url('imagens/noite.jpg')";
+    let corpoPag = document.body
+    corpoPag.style.backgroundImage = "url('imagens/noite-full.jpg')";
 
     var som1 = document.getElementById("som1");
     som1.pause();
