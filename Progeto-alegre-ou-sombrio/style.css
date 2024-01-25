@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-image: url(neutro.jpg);
+    background-image: url(imagens/neutro-full.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
