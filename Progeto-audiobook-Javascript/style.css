@@ -49,3 +49,18 @@ button {
   display: flex;
   justify-content: space-around;
 }
+#faixa{
+  background-color: #3b1566;
+  font-weight: bolder;
+}
+a{
+  text-decoration: none;
+}
+#nome-autor{
+  background-color: #5f4da8;
+  color: white;
+}
+#nome-autor:hover{
+  background-color: #3b1566;
+  text-decoration: underline;
+}
