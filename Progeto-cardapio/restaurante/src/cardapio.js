@@ -112,3 +112,8 @@ export const pratosPrincipais = [
 export const sobremesas = [brownie, cocadaForno, petitGateau];
 
 export const bebidas = [aguaSemGas, aguaComGas, cocaCola, guarana, heineken];
+
+
+// const notasIniciais = [0, 1, 5, 8, 9, 2, 7, 7.8]
+// notasIniciais.map(nota => nota +1)
+// [1., 2, 6, 9, 10, 3, 8, 8.8]
