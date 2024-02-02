@@ -11,7 +11,7 @@ Um projeto simples para exibir uma imagem na página.
     - HTML
     - CSS
     - Javascript
-    [Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-aparecer-imagem-na-tela/Metflix.html)
+[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-aparecer-imagem-na-tela/Metflix.html)
 
 
 ## ☀🌑 Projeto: Botão que Muda a Página
