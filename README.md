@@ -11,17 +11,65 @@ Um projeto simples para exibir uma imagem na página.
     - HTML
     - CSS
     - Javascript
-[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-aparecer-imagem-na-tela/Metflix.html){:target="_blank"}
+
+
+[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-aparecer-imagem-na-tela/Metflix.html)
 
 
 ## ☀🌑 Projeto: Botão que Muda a Página
-Breve descrição: Um projeto que envolve a implementação de um botão que altera o tema da página entre claro e escuro.
+Um projeto que envolve a implementação de um botão que altera o tema da página entre claro e escuro alem de reproduzir uma musica corespondente a opção.
+
+    Tecnologias usadas:
+    - HTML
+    - CSS
+    - Javascript
+
+
+[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-alegre-ou-sombrio/index.html)
 
 ## 📖 Projeto: Audiobook
-Breve descrição: Desenvolvimento de um aplicativo para reproduzir livros em formato de áudio.
+Projeto que fiz para reprodução de um audiobook do autor Dom Casmurro.
+
+    Tecnologias usadas:
+    - Javascript
+    - HTML
+    - CSS
+
+
+[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-audiobook-Javascript/index.html)
 
 ## 🍎 Projeto: Site da Apple
-Breve descrição: Recriação da página inicial do site da Apple usando HTML e CSS.
+Recriação de uma página do site da Apple que antes tinha apenas HTML e CSS. Mas após eu adicionar o JavaScript, o site ganhou inteligencia.
+
+    Tecnologias usadas
+    -Javascript
+    -HTML
+    -CSS
+
+
+[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-pagina-apple/index.html)
 
 ## 📕 Projeto: Cardápio
-Breve descrição: Criação de um cardápio interativo para um restaurante.
+Criação de um cardápio básico de um restaurante fictício, esse cardápio fiz usando o React, para conseguir apesar tera que clonar o repositorio para testar.
+
+    Tecnologias usadas
+    - React
+    - Javascript
+    - HTML
+    - CSS
+
+
+[Para acessar a pasta do projeto, clique aqui](https://github.com/wallacemt/Projetos-de-Exercicio/tree/main/Projeto-cardapio/restaurante)
+
+## 💌 Progeto: Chat Ao-Vivo
+Nesse projeto explorei mais o node.js fazendo configurações back-end, onde criei um servidor local para fazer um chat ao-vivo, para poder utilizar tera que clonar o repositorio e fazer as configuraçoes necesarias.
+
+    Tecnologias Usadas
+    - Node.js
+    - JavaScript
+    - HTML
+    - CSS
+
+
+[Para acessar a pasta do projeto, clique aqui](https://github.com/wallacemt/Projetos-de-Exercicio/tree/main/Projeto-chat)
+
