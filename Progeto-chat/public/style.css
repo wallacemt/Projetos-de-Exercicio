@@ -34,11 +34,13 @@ header {
   padding: 1rem 0;
   font-size: 1.4rem;
   & > img {
-    max-height: 3rem;
     margin-right: 0.2rem;
   }
 }
-
+.img-svg{
+  width: 20em;
+  height: 20vh;
+}
 main {
   display: flex;
   flex-direction: column;
