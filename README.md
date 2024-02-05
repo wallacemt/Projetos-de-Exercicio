@@ -13,7 +13,7 @@ Um projeto simples para exibir uma imagem na página.
     - Javascript
 
 
-[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-aparecer-imagem-na-tela/Metflix.html)
+<a href="https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-aparecer-imagem-na-tela/Metflix.html">Para acessar, clique aqui</a>
 
 
 ## ☀🌑 Projeto: Botão que Muda a Página
@@ -25,7 +25,7 @@ Um projeto que envolve a implementação de um botão que altera o tema da pági
     - Javascript
 
 
-[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-alegre-ou-sombrio/index.html)
+<a href="https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-alegre-ou-sombrio/index.html">Para acessar, clique aqui</a>
 
 ## 📖 Projeto: Audiobook
 Projeto que fiz para reprodução de um audiobook do autor Dom Casmurro.
@@ -36,7 +36,7 @@ Projeto que fiz para reprodução de um audiobook do autor Dom Casmurro.
     - CSS
 
 
-[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-audiobook-Javascript/index.html)
+<a href="https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-audiobook-Javascript/index.html">Para acessar, clique aqui</a>
 
 ## 🍎 Projeto: Site da Apple
 Recriação de uma página do site da Apple que antes tinha apenas HTML e CSS. Mas após eu adicionar o JavaScript, o site ganhou inteligencia.
@@ -47,7 +47,7 @@ Recriação de uma página do site da Apple que antes tinha apenas HTML e CSS. M
     -CSS
 
 
-[Para acessar, clique aqui](https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-pagina-apple/index.html)
+<a href="https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-pagina-apple/index.html">Para acessar, clique aqui</a>
 
 ## 📕 Projeto: Cardápio
 Criação de um cardápio básico de um restaurante fictício, esse cardápio fiz usando o React, para conseguir apesar tera que clonar o repositorio para testar.
@@ -59,7 +59,7 @@ Criação de um cardápio básico de um restaurante fictício, esse cardápio fi
     - CSS
 
 
-[Para acessar a pasta do projeto, clique aqui](https://github.com/wallacemt/Projetos-de-Exercicio/tree/main/Projeto-cardapio/restaurante)
+<a href="https://github.com/wallacemt/Projetos-de-Exercicio/tree/main/Projeto-cardapio/restaurante">Para acessar a pasta do projeto, clique aqui</a>
 
 ## 💌 Progeto: Chat Ao-Vivo
 Nesse projeto explorei mais o node.js fazendo configurações back-end, onde criei um servidor local para fazer um chat ao-vivo, para poder utilizar tera que clonar o repositorio e fazer as configuraçoes necesarias.
@@ -71,6 +71,24 @@ Nesse projeto explorei mais o node.js fazendo configurações back-end, onde cri
     - CSS
 
 
-[Para acessar a pasta do projeto, clique aqui](https://github.com/wallacemt/Projetos-de-Exercicio/tree/main/Projeto-chat)
+<a href="https://github.com/wallacemt/Projetos-de-Exercicio/tree/main/Projeto-chat">Para acessar a pasta do projeto, clique aqui</a>
+
+## 📱 Projeto: Site do mascote Android 
+Um projeto Feito HTML e CSS, onde apresenta a historia da criação do mascote do Android
+
+    Tecnologias usadas: 
+    - HTML
+    - CSS
 
 
+<a href="https://wallacemt.github.io/progeto-site-android/" target="_blank">Para acessar, clique aqui</a>
+
+## 📔 Projeto: Site Cordel
+Site feito para com HTML CSS, com diversos recursos de respansividade,é imagens com efeito Paralax.
+
+    Tecnologias usadas: 
+    - HTML
+    - CSS
+
+
+<a href="https://wallacemt.github.io/progeto-site-cordel/index.html">Para acessar, clique aqui</a>
