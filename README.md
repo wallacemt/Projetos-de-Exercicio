@@ -82,7 +82,6 @@ Um projeto Feito HTML e CSS, onde apresenta a historia da criação do mascote d
 
 
 <a href="https://wallacemt.github.io/progeto-site-android/" target="_blank">Para acessar, clique aqui</a>
-
 ## 📔 Projeto: Site Cordel
 Site feito para com HTML CSS, com diversos recursos de respansividade,é imagens com efeito Paralax.
 
