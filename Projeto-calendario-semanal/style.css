@@ -1,56 +1,68 @@
 @charset "UTF-8";
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background-color: black;
+ *{
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+html, body{
     height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+body{
+    background: url(imagens/img.png) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main {
+    position: relative;
+    height: 100vh;
+}
+section#conteudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    height: 80vh;
+    width: 600px;
+    background-repeat: no-repeat;
+    overflow-x: auto ;
+}
 
-}
-.container {
-    display: flex;
-    height: 100%;
-}
 
-div.bloco{
-    background-color: #333333ab;
-    color: #fff;
-    width: 200px;
-    height: 100%;
-    position:fixed ;
-    right: 0px;
-    top: 0;
-    bottom: 0;
-    padding-top: 20px;
+section#menu{
+    text-align: right;
 }
-.bloco-item {
-    padding: 10px;
-    border-bottom: 1px solid #555;
+section#menu img{
+    width: 100px;
+    margin: 7px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
 }
-.content {
+section#menu img:hover{ 
+    border: 2px solid rgba(23, 187, 17, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.6);
+    transition: transform 0.6s, border 1s;
+}
+.menu-item img{
+    cursor: pointer;
+}
+.conteudo-item{
+    width: 300px;
+    height: 500px;
+    background-color: white;
     margin: auto;
-    margin-right: 70px;
-    padding: 20px;
-    width: 60vh;
-    height: 800px;
-    background-color: gray;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
     align-items: center;
-    border-radius: 15px;
 }
-.imagem{
-    width: 200px;
-    height: 400px;
-    background-color: #fff;
-    padding: 10px;
-    margin: auto;
-    margin-left: 20px;
+#conteudo-1{
+    background: url(https://www.anitube.vip/media/categories/video/afa0c448ffaca160a7d4ee03b04f1997.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
 }
