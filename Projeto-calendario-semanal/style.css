@@ -11,8 +11,12 @@ html, body{
     width: 100vw;
     background-color: black;
 }
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 body{
-    background: url(imagens/img.png) no-repeat top center;
+    background: url(imagens/img.png) no-repeat top center ;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -24,12 +28,27 @@ section#conteudo{
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: black;
+    background-image: linear-gradient(to bottom, #6210af,#4b12f79c, #16074a10 );
     transform: translate(-50%, -50%);
     height: 80vh;
     width: 600px;
+    border-radius: 50px;
     background-repeat: no-repeat;
     overflow-x: auto ;
+    h1{
+        color: white;
+        text-align: center;
+        margin: auto;
+        padding: 15px;
+    }
+    p{
+        color: white;
+        background-color: red;
+        text-align: center;
+        margin: auto;
+        margin-top: -20px ;
+        width: 300px;
+    }
 }
 
 
@@ -37,7 +56,7 @@ section#menu{
     text-align: right;
 }
 section#menu img{
-    width: 100px;
+    width: 80px;
     margin: 7px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
@@ -62,7 +81,7 @@ section#menu img:hover{
     align-items: center;
 }
 #conteudo-1{
-    background: url(https://www.anitube.vip/media/categories/video/afa0c448ffaca160a7d4ee03b04f1997.jpg) center;
+    background: url(https://www.anitube.vip/media/categories/video/32cc64407f53842cdef8a3f482a22410.jpg) center;
     background-attachment: fixed;
     background-size: cover;
 }
