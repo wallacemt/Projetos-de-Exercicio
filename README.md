@@ -1,4 +1,4 @@
-# Meus Progetos De Exercicio
+# Meus Projetos De Exercicio <br>by Wallace Santana
 <h1 align="center">
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXl5YWdqYWZsZXh6ZzBjNGt0b2w5YTVjbXJvb3UycmlqenRuZ3FmeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j3mdQpQ9SKxFOWs9gy/giphy.gif"/>
 <p>Codando uma linha de cada vez 👨‍💻</p>
