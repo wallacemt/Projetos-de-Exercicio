@@ -26,6 +26,7 @@ main {
     height: 100vh;
 }
 section#conteudo{
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,24 +38,38 @@ section#conteudo{
     background-repeat: no-repeat;
     overflow-x: auto ;
     h1{
-        color: white;
+        color: rgb(254, 255, 179);
+        background-color: #16074a7c;
         text-align: center;
         margin: auto;
         padding: 15px;
     }
     p#subtitulo{
-        color: white;
+        color: #97ffd7;
         background-image: linear-gradient(to top, #6210af00, #4b12f7, #16074a );
         text-align: center;
         margin: auto;
-        margin-top: -20px ;
+        margin-top:-20px;
         width: 300px;
+        column-width: 180px;
     }
 }
 
-
-section#menu{
+#menu{
     text-align: right;
+    width: 80px;
+    position: absolute;
+    align-items: center;
+}
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu li{
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
 }
 section#menu img{
     width: 80px;
@@ -75,7 +90,7 @@ section#menu img:hover{
 .conteudo-item{
     width: 300px;
     height: 500px;
-    background-color: white;
+    background-color: #ffffff;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -83,6 +98,7 @@ section#menu img:hover{
 }
 #conteudo-1{
     background: url() center;
+    background-color: wheat;
     background-attachment: fixed;
     background-size: cover;
 }
