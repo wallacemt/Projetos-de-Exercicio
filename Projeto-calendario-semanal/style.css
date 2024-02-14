@@ -44,7 +44,7 @@ section#conteudo{
         margin: auto;
         padding: 15px;
     }
-    p#subtitulo{
+    p{
         color: #97ffd7;
         background-image: linear-gradient(to top, #6210af00, #4b12f7, #16074a );
         text-align: center;
@@ -90,15 +90,18 @@ section#menu img:hover{
 .conteudo-item{
     width: 300px;
     height: 500px;
-    background-color: #ffffff;
+    background-size: cover;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
     align-items: center;
-}
-#conteudo-1{
     background: url() center;
-    background-color: wheat;
+    background-color: rgba(245, 222, 179, 0.192);
     background-attachment: fixed;
     background-size: cover;
+}
+.conteudo-item:hover{
+    width: 350px;
+    height: 550px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
 }
