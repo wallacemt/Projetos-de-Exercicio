@@ -14,11 +14,35 @@ Grandes telas: acima de 1200px
         background: url(../imagens/img-mq.png) center center;
         background-size: cover;
     }
-
     section#menu{
         display: none;
+        position: fixed;
+        top: 0;
+    }
+    section#menu li{
+        text-align: right;
+    }
+    section > ul > li.menu-item{
+        width: 50px;
     }
     section#conteudo{
-        width: 400px;
+        width: 350px;
+    }
+    i#icone-menu{
+        display: block;
+        background-color: #7e2f43;
+        margin: auto;
+        margin-top: 50px;
+        color: white;
+        width: 200px;
+        height: 30px;
+        padding: 10px;
+        cursor: pointer;
+        position: top;
+        font-size: 2em;
+        text-align: center;
+    }
+    #conteudo{
+        margin-top: -30px;
     }
 }

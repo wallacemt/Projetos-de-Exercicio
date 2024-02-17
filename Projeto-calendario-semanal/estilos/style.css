@@ -87,6 +87,9 @@ section#menu img:hover{
 .menu-item img{
     cursor: pointer;
 }
+i#icone-menu{
+    display: none;
+}
 .conteudo-item{
     width: 300px;
     height: 500px;
