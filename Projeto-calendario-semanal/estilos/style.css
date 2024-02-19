@@ -37,6 +37,7 @@ section#conteudo{
     border-radius: 50px;
     background-repeat: no-repeat;
     overflow-x: auto ;
+    transition: 1s ease;
     h1{
         color: rgb(254, 255, 179);
         background-color: #16074a7c;
@@ -53,6 +54,7 @@ section#conteudo{
         width: 300px;
         column-width: 180px;
     }
+    
 }
 
 #menu{
@@ -72,7 +74,7 @@ section#conteudo{
     text-align: left;
 }
 section#menu img{
-    width: 80px;
+    width: 70px;
     margin: 7px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
@@ -106,5 +108,5 @@ i#icone-menu{
 .conteudo-item:hover{
     width: 350px;
     height: 550px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.486);
 }

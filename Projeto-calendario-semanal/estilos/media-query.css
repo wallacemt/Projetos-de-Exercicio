@@ -9,7 +9,7 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){/*Media query para celular*/
     body{
         background: url(../imagens/img-mq.png) center center;
         background-size: cover;
@@ -30,7 +30,7 @@ Grandes telas: acima de 1200px
     }
     i#icone-menu{
         display: block;
-        background-color: #7e2f43;
+        background-color: #4b12f79c;
         margin: auto;
         margin-top: 50px;
         color: white;
@@ -43,6 +43,6 @@ Grandes telas: acima de 1200px
         text-align: center;
     }
     #conteudo{
-        margin-top: -30px;
+        margin-top: auto;
     }
 }
