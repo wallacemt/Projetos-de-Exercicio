@@ -102,7 +102,7 @@ function butter(){
 }
 
 function butqua(){
-    const subtitulosAnimesQuarta = ["Estúdio: Seven Arcs\nStatus: Em Progresso\nGêneros: Ação Ecchi Fantasia", "Autor: Ryousuke Fuji e Katarina\nDireção: Toshiyuki Kubooka\nEstúdio: C2C\nGêneros: Ação Aventura Fantasia Jogos Shounen"];
+    const subtitulosAnimesQuarta = ["Mato Seihei no Slave\nEstúdio: Seven Arcs\nStatus: Em Progresso\nGêneros: Ação Ecchi Fantasia", "Shangri-La Frontier\nAutor: Ryousuke Fuji e Katarina\nDireção: Toshiyuki Kubooka\nEstúdio: C2C\nGêneros: Ação Aventura Fantasia Jogos Shounen"];
     const imagensAnimesQuarta = ["https://www.anitube.vip/media/categories/video/5d9539763ee2a79091013e3792bbf267.jpg", "https://www.anitube.vip/media/categories/video/e5bb61f161dadfca4ebe6d6016a94462940.jpg"];
     const linkAnimesQuarta = ['https://www.anitube.vip/anime/mato-seihei-no-slave', 'https://www.anitube.vip/anime/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su'];
     if(taAparecendo == 0){
@@ -171,4 +171,48 @@ function butqui(){
         conteudo.style.display = 'none'
         taAparecendo = 0
     }
+}
+function butsex(){
+    const subtitulosAnimesSexta = ["Ishura\nEstúdio: Passione\nGêneros: Ação Aventura Fantasia", "Chiyu Mahou no Machigatta Tsukaikata\nEstúdio:Shin-Ei Animation, Studio Add\nGêneros: Ação, Fantasia"];
+    const imagensAnimesSexta = ["https://www.anitube.vip/media/categories/video/f6d51a1d32d50d00c1c18c4a10177b7a.jpg", "https://cdn.anicdn.net/media/categories/video/41c33878b38abbe1feadde0677581e06.jpg"];
+    const linkAnimesSexta = ["https://www.anitube.vip/anime/ishura", "https://www.anitube.vip/anime/chiyu-mahou-no-machigatta-tsukaikata"];
+    if(taAparecendo == 0){
+        //Area de cabeçalho
+        conteudo.style.display = 'inline'
+        let titulo = document.getElementById('titulo')
+        titulo.innerText = 'Animes de Sexta-Feira'
+    
+        //Inserindo intens dentro da section
+        subtitulo1.innerText = subtitulosAnimesSexta[0]
+        banner1.style.backgroundImage ='url(' + imagensAnimesSexta[0] + ')';
+        link1.href = linkAnimesSexta[0];
+    
+        subtitulo2.innerText = subtitulosAnimesSexta[1]
+        banner2.style.backgroundImage = 'url(' + imagensAnimesSexta[1] + ')';
+        link2.href = linkAnimesSexta[1];
+
+        conteudo.style.display = 'block'
+
+        banner3.style.display = 'none'
+        subtitulo3.innerText = ''
+        taAparecendo +=1
+
+        if(window.innerWidth <= 800 && taAparecendo === 0){
+            let menu = document.getElementById('menu')
+            menu.style.display = 'none'
+        }
+        taAparecendo +=1
+    }else{//Logica para esconder o conteudo quando clicar de novo 
+        conteudo.style.display = 'none'
+        taAparecendo = 0
+    }
+}
+function butsab(){
+
+}
+function butdom(){
+
+}
+function butextra(){
+
 }
