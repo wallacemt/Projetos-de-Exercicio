@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,600;1,600&display=swap');
+
+:root{
+    --cor0:#A61420;
+    --cor1:#141A26;
+    --cor2:#F2C185;
+    --cor3:#D9763D;
+    --cor4:#8C513B;
+
+    --font1: 'Passion One', sans-serif;
+    --font2: "Victor Mono", monospace;
+}
+
+html{
+    font-family: 'Open sans', 'sans-serif';
+}
+a{
+    transition: .5s;
+}
+/*Menu Lateral*/
+#sidebar{
+    position: fixed; 
+    height: 100%;
+    width: 300px;
+    background-image: linear-gradient(22deg, var(--cor3) 49%, var(--cor3) 100%);
+    padding-top: 40px;
+}
+#sidebar h1{
+    font-family: var(--font1);
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 4em;
+    color: var(--cor1);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#sidebar a{
+    color: white;
+    font-family: var(--font2);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#sidebar a:hover{
+    color: var(--cor0);
+}
+#sidebar li{
+    padding: 20px;
+}
+.sidebar-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.logo-doceria{
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
