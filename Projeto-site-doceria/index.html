@@ -6,6 +6,7 @@
     <title>Doceria Sonho Bom</title>
     <link rel="stylesheet" href="estilos/reset.css">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,7 +14,7 @@
         <div id="sidebar">
             <div class="sidebar-container">
                 <img class="logo-doceria" src="imagens/stand.png" alt="logo doceria"/>
-                <h1>Doceria</h1>
+                <h1>Sonho Bom</h1>
                 <nav>
                     <ul>
                         <li><a href="#sessao-bemvindo">Bem vindo</a></li>
@@ -31,17 +32,17 @@
                 <section id="sessao-bemvindo">
                     <div class="banner"></div>
                     <div class="sessao-bemvindo-content">
-                        <h1>Seja Bem vindo a Doceria</h1>
+                        <h1>Seja Bem vindo a Doceria Sonho Bom</h1>
                         <div class="sessao-minibanner"></div>
-                        <div class="sessao-desecricao">
+                        <div class="sessao-descricao">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi incidunt eligendi obcaecati eveniet vel nulla. Voluptates temporibus delectus assumenda eum consectetur libero accusamus numquam maiores non eius accusantium, excepturi quos deleniti, quasi eveniet. Sed vitae hic, eius architecto maxime alias provident accusamus ipsa illum voluptates saepe dolore consectetur pariatur.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi incidunt eligendi obcaecati eveniet vel nulla. Voluptates temporibus delectus assumenda eum consectetur libero accusamus numquam maiores non eius accusantium, excepturi quos deleniti.
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi incidunt eligendi obcaecati eveniet vel nulla. Voluptates temporibus delectus assumenda eum consectetur libero accusamus numquam maiores non eius accusantium, excepturi quos deleniti, quasi eveniet. Sed vitae hic, eius architecto maxime alias provident accusamus ipsa illum voluptates saepe dolore consectetur pariatur.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi incidunt eligendi obcaecati eveniet vel nulla. Voluptates temporibus delectus assumenda eum consectetur libero accusamus numquam maiores non eius accusantium, excepturi quos deleniti.
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi incidunt eligendi obcaecati eveniet vel nulla. Voluptates temporibus delectus assumenda eum consectetur libero accusamus numquam maiores non eius accusantium, excepturi quos deleniti, quasi eveniet. Sed vitae hic, eius architecto maxime alias provident accusamus ipsa illum voluptates saepe dolore consectetur pariatur.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi incidunt eligendi obcaecati eveniet vel nulla. Voluptates temporibus delectus assumenda eum consectetur libero accusamus numquam maiores non eius accusantium, excepturi quos deleniti.
                             </p>
                             <a href="#" class="sessao-bemvindo-btn">Leia Mais</a>
                         </div>
@@ -52,6 +53,7 @@
                     <div class="sessao-content"></div>
                         <h1>Sobre nós</h1>
                         <div class="sessao-minibanner"></div>
+                        <div class="sessao-descricao">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi incidunt eligendi obcaecati eveniet vel nulla. Voluptates temporibus delectus assumenda eum consectetur libero accusamus numquam maiores non eius accusantium, excepturi quos deleniti, quasi eveniet. Sed vitae hic, eius architecto maxime alias provident accusamus ipsa illum voluptates saepe dolore consectetur pariatur.
                         </p>
@@ -61,6 +63,7 @@
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi incidunt eligendi obcaecati eveniet vel nulla. Voluptates temporibus delectus assumenda eum consectetur libero accusamus numquam maiores non eius accusantium, excepturi quos deleniti, quasi eveniet. Sed vitae hic, eius architecto maxime alias provident accusamus ipsa illum voluptates saepe dolore consectetur pariatur.
                         </p>
+                        </div>
                 </section>
                 <section id="sessao-doces-1">
                     <h2>Doces 1</h2>
@@ -83,15 +86,14 @@
                     <div class="doces3-imgs banner-galeria" id="img10"></div>
                     <div class="doces3-imgs banner-galeria" id="img11"></div>
                     <div class="doces3-imgs banner-galeria" id="img12"></div>
-                    <div class="doces3-imgs banner-galeria" id="img13"></div>
                 </section>
                 
                 <section id="sessao-contato">
                     <h2>Entre em contato</h2>
-                    <form id="form-contato" autocomplete="on"></form>
+                    <form id="form-contato" autocomplete="on">
                         <p>
                             <label for="inome">Nome:</label>
-                            <input type="text" name="inome" id="inome" placeholder="nome" autocomplete="name">
+                            <input type="text" name="inome" id="inome" placeholder="Nome" autocomplete="name">
                         </p>
                         <p>
                             <label for="imail">Email</label>
@@ -104,6 +106,7 @@
                         <p>
                             <input type="submit" value="Enviar">
                         </p>
+                    </form>
                 </section>
                 <footer>
                     <p>@wallace_stm</p>

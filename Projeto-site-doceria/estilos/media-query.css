@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+-------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (max-width: 600px){/*Media query para celular*/
+    body{
+        overflow-x:hidden;
+        right: 0;
+    }
+    #sidebar{
+        display: none;
+        height: 0;
+        padding-top: 20px;
+    }
+    .content{
+        left: 0;
+        width: 90%;
+    }
+    #sessao-bemvindo .banner{
+        height: 300px;
+        width: 111%;
+        left: 100%;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.568);
+    }
+
+    .sessao-bemvindo-content{
+        position: relative;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .sessao-minibanner{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        float: none;
+    }
+    .sessao-descricao{
+        left: 0;
+        float: none;
+    }
+    .sessao-descricao > p{
+        line-height: 1.5;
+        font-size: 13px;
+        margin-bottom: 0;
+        margin-left: 50px;
+    }
+    #sessao-sobre .sessao-minibanner{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        float: none;
+        margin-top: 200px;
+    }
+    #sessao-sobre .sessao-descricao{
+        position: absolute;
+        left: 0;
+        width:100%;
+        height: 300px;
+    }
+    #sessao-sobre h1{
+        margin-top: 300px;
+        margin-bottom: -180px;
+    }
+    .content h1{
+        font-size: 33px;
+    }
+    .content h2 {
+        font-size: 25px;
+    }
+    #sessao-doces-1, #sessao-doces-, #sessao-doces-3{
+        padding-right: 50px;
+        margin-bottom: 50px;
+        margin-top: 260px;
+    }
+    #sessao-contato{
+        display: none;
+    }
+}
