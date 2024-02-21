@@ -45,6 +45,7 @@ function butseg(){
         
         subtitulo2.innerText = subtitulosAnimesSegunda[1]
         banner2.style.backgroundImage = 'url(' + imagensAnimesSegunda[1] + ')';
+        banner2.style.display = 'block'
         link2.href = linkAnimesSegunda[1];
         
         subtitulo3.innerText = subtitulosAnimesSegunda[2]
@@ -82,6 +83,7 @@ function butter(){
     
         subtitulo2.innerText = subtitulosAnimesTerca[1]
         banner2.style.backgroundImage = 'url(' + imagensAnimesTerca[1] + ')';
+        banner2.style.display = 'block'
         link2.href = linkAnimesTerca[1];
 
         conteudo.style.display = 'block'
@@ -118,6 +120,7 @@ function butqua(){
     
         subtitulo2.innerText = subtitulosAnimesQuarta[1]
         banner2.style.backgroundImage = 'url(' + imagensAnimesQuarta[1] + ')';
+        banner2.style.display = 'block'
         link2.href = linkAnimesQuarta[1];
 
         conteudo.style.display = 'block'
@@ -189,6 +192,7 @@ function butsex(){
     
         subtitulo2.innerText = subtitulosAnimesSexta[1]
         banner2.style.backgroundImage = 'url(' + imagensAnimesSexta[1] + ')';
+        banner2.style.display = 'block'
         link2.href = linkAnimesSexta[1];
 
         conteudo.style.display = 'block'
@@ -208,9 +212,73 @@ function butsex(){
     }
 }
 function butsab(){
+    const subtitulosAnimesSabado = ["Solo Leveling\nEstúdio: A-1 Pictures\nGêneros: Ação, Aventura, Fantasia","Mashle: Magic and Muscles Season 2\n Estúdio: A-1 Pictures\nGêneros: Ação, Comédia, Fantasia" ];
+    const imagensAnimesSabado = ["https://cdn.anicdn.net/media/categories/video/36dc63c846890690feb95783f34ab877.jpg", "https://cdn.anicdn.net/media/categories/video/84b580801c99a45fddeca9f3d89aa743.jpg"];
+    const linkAnimesSabado = ["https://www.anitube.vip/download/anime/ore-dake-level-up-na-ken", "https://www.anitube.vip/download/anime/mashle-2nd-season"];
+    if(taAparecendo == 0){
+        //Area de cabeçalho
+        conteudo.style.display = 'inline'
+        let titulo = document.getElementById('titulo')
+        titulo.innerText = 'Animes de Sabado'
+    
+        //Inserindo intens dentro da section
+        subtitulo1.innerText = subtitulosAnimesSabado[0]
+        banner1.style.backgroundImage ='url(' + imagensAnimesSabado[0] + ')';
+        link1.href = linkAnimesSabado[0];
+    
+        subtitulo2.innerText = subtitulosAnimesSabado[1]
+        banner2.style.backgroundImage = 'url(' + imagensAnimesSabado[1] + ')';
+        link2.href = linkAnimesSabado[1];
+
+        conteudo.style.display = 'block'
+
+        banner3.style.display = 'none'
+        subtitulo3.innerText = ''
+        taAparecendo +=1
+
+        if(window.innerWidth <= 800 && taAparecendo === 0){
+            let menu = document.getElementById('menu')
+            menu.style.display = 'none'
+        }
+        taAparecendo +=1
+    }else{//Logica para esconder o conteudo quando clicar de novo 
+        conteudo.style.display = 'none'
+        taAparecendo = 0
+    }
 
 }
 function butdom(){
+    const subtitulosAnimesDomingo = ["One Piece🏴‍☠️\nAutor: Eiichiro Oda\nDireção: Konosuke Uda\nEstúdio: Toei Animation\nStatus: Infinito\nGêneros: Ação Aventura Comédia Drama Fantasia Shounen Superpoder"];
+    const imagensAnimesDomingo = ["https://pbs.twimg.com/media/F_0mcEtWEAAVPCm?format=jpg&name=900x900"];
+    const linkAnimesDomingo = ["https://www.anitube.vip/anime/398a5cebfadb2606fbf802b42aad57755b4eae55"];
+    if(taAparecendo == 0){
+        //Area de cabeçalho
+        conteudo.style.display = 'inline'
+        let titulo = document.getElementById('titulo')
+        titulo.innerText = 'Animes de Domingo'
+    
+        //Inserindo intens dentro da section
+        subtitulo1.innerText = subtitulosAnimesDomingo[0]
+        banner1.style.backgroundImage ='url(' + imagensAnimesDomingo[0] + ')';
+        link1.href = linkAnimesDomingo[0];
+        conteudo.style.display = 'block'
+
+        banner2.style.display = 'none'
+        subtitulo2.innerText = ''
+        
+        banner3.style.display = 'none'
+        subtitulo3.innerText = ''
+
+        taAparecendo +=1
+        if(window.innerWidth <= 800 && taAparecendo === 0){
+            let menu = document.getElementById('menu')
+            menu.style.display = 'none'
+        }
+        taAparecendo +=1
+    }else{//Logica para esconder o conteudo quando clicar de novo 
+        conteudo.style.display = 'none'
+        taAparecendo = 0
+    }
 
 }
 function butextra(){
