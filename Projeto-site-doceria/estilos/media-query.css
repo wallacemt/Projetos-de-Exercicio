@@ -9,10 +9,9 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (max-width: 600px){/*Media query para celular*/
-    body{
-        overflow-x:hidden;
-        right: 0;
+@media screen and (max-width: 900px){/*Media query para celular*/
+    main{
+        overflow: hidden;
     }
     #sidebar{
         display: none;
@@ -21,11 +20,12 @@ Grandes telas: acima de 1200px
     }
     .content{
         left: 0;
-        width: 90%;
+        width: 100%;
+        overflow-x: hidden;
     }
     #sessao-bemvindo .banner{
         height: 300px;
-        width: 111%;
+        width: 100%;
         left: 100%;
         background-position: center;
         background-size: cover;
@@ -36,6 +36,9 @@ Grandes telas: acima de 1200px
         position: relative;
         width: 90%;
         margin-bottom: 40px;
+    }
+    .sessao-bemvindo-btn{
+        margin: auto;
     }
     .sessao-minibanner{
         width: 100%;
@@ -55,7 +58,7 @@ Grandes telas: acima de 1200px
         margin-left: 50px;
     }
     #sessao-sobre .sessao-minibanner{
-        width: 100%;
+        width: 90%;
         height: 300px;
         background-position: center;
         background-size: cover;
@@ -69,8 +72,15 @@ Grandes telas: acima de 1200px
         height: 300px;
     }
     #sessao-sobre h1{
-        margin-top: 300px;
+        margin-top: 450px;
         margin-bottom: -180px;
+        margin-left: 20%;
+    }
+    #sessao-sobre p{
+        margin: 10px;
+        margin-left: 14%;
+        margin-bottom: 40px;
+
     }
     .content h1{
         font-size: 33px;
@@ -78,12 +88,47 @@ Grandes telas: acima de 1200px
     .content h2 {
         font-size: 25px;
     }
+    .banner-galeria{
+        width: 100%;
+    }
+    #sessao-doces-1{
+        overflow-x: auto;
+   
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-left: -50px;
+    }
     #sessao-doces-1, #sessao-doces-, #sessao-doces-3{
         padding-right: 50px;
         margin-bottom: 50px;
         margin-top: 260px;
     }
+    #sessao-doces-1{
+        margin-top: 570px;
+    }
+    #sessao-doces-1 h2{
+        margin-bottom: 400px;
+        margin-left: 200px;
+    
+    }
+    .doces1-imgs{
+        width: 500px;
+    }
     #sessao-contato{
-        display: none;
+        display: block;
+        width: 200px;
+    }
+    #form-contato input[type=text], #form-contato input[type=email], #form-contato textarea{
+        display: block;
+        border: 1px solid #006599;
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 200px;
+        font-size: 16px;
+        font-family:  'Open Sans',  sans-serif;
+    }
+    footer{
+        width: 100%;
     }
 }

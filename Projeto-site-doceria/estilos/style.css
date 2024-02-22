@@ -106,6 +106,7 @@ section{
     background-position: center;
     background-size: cover;
     box-shadow: 1px 0px 11px 0px rgba(0, 0, 0, 0.568);
+    overflow: hidden;
 }
 
 #sessao-bemvindo h1{
@@ -131,16 +132,19 @@ section{
     position: absolute;
     left: 370px;
     padding-right: 30px;
+    max-height: 200px;
 }
 
 .sessao-descricao p{
+    display: flex;
     line-height: 2;
-    font-size: 13px;
+    font-size: 1.1vw;
     margin-bottom: 30px;
     margin-left: 25px;
 }
 
 .sessao-bemvindo-btn, form input[type=submit]{
+    display: block;
     background-color: var(--cor3);
     color: white;
     text-decoration: none;
