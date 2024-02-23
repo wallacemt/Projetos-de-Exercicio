@@ -156,6 +156,7 @@ function butqui(){
     
         subtitulo2.innerText = subtitulosAnimesQuinta[1]
         banner2.style.backgroundImage = 'url(' + imagensAnimesQuinta[1] + ')';
+        banner3.style.display = 'block'
         link2.href = linkAnimesQuinta[1];
 
         subtitulo3.innerText = subtitulosAnimesQuinta[2]
@@ -282,5 +283,8 @@ function butdom(){
 
 }
 function butextra(){
-
+    let bannerExtra1 = document.getElementById('conteudo-extra-1');
+    let subtituloExtra1 = document.getElementById('subtitulo-extra-1');
+    let linkExtra1 = document.getElementById('link-extra-1');
+    //Tentar fazer um comando de repetição para mostra todos os conteudos extra sem precisar de muitas linhas.
 }
