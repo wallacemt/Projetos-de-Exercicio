@@ -1,5 +1,7 @@
 var conteudo = document.getElementById('conteudo');
 
+var conteudoExtra = document.getElementById("content-extra")
+
 var banner1 = document.getElementById('conteudo-1');
 var subtitulo1 = document.getElementById('subtitulo-1');
 var link1 = document.getElementById('link-1');
@@ -32,6 +34,7 @@ function butseg(){
     const imagensAnimesSegunda=["https://www.anitube.vip/media/categories/video/32cc64407f53842cdef8a3f482a22410.jpg", "https://cdn.anicdn.net/media/categories/video/8693722045353926369c8e7ab8a5ff3e.jpg", "https://cdn.anicdn.net/media/categories/video/95769d5e5d2d94eb3d1f1381915f876d731.jpg"];
 
     const linkAnimesSegunda = ["https://www.anitube.vip/anime/kekkon-yubiwa-monogatari","https://www.anitube.vip/download/anime/bucchigiri", "https://www.anitube.vip/download/anime/undead-unluck"];
+
     if(taAparecendo == 0){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
@@ -41,6 +44,7 @@ function butseg(){
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesSegunda[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesSegunda[0] + ')';
+        banner1.style.display = 'block'
         link1.href = linkAnimesSegunda[0];
         
         subtitulo2.innerText = subtitulosAnimesSegunda[1]
@@ -79,6 +83,7 @@ function butter(){
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesTerca[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesTerca[0] + ')';
+        banner1.style.display = 'block'
         link1.href = linkAnimesTerca[0];
     
         subtitulo2.innerText = subtitulosAnimesTerca[1]
@@ -88,6 +93,8 @@ function butter(){
 
         conteudo.style.display = 'block'
 
+        conteudoExtra.style.display = 'none';
+
         if(window.innerWidth <= 800 && taAparecendo === 0){
             let menu = document.getElementById('menu')
             menu.style.display = 'none'
@@ -95,6 +102,10 @@ function butter(){
 
         banner3.style.display = 'none'
         subtitulo3.innerText = ''
+
+        banner2.style.display = 'none'
+        subtitulo2.innerText = ''
+
         taAparecendo +=1
     }else{
         conteudo.style.display = 'none'
@@ -116,6 +127,7 @@ function butqua(){
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesQuarta[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesQuarta[0] + ')';
+        banner2.style.display = 'block'
         link1.href = linkAnimesQuarta[0];
     
         subtitulo2.innerText = subtitulosAnimesQuarta[1]
@@ -124,6 +136,7 @@ function butqua(){
         link2.href = linkAnimesQuarta[1];
 
         conteudo.style.display = 'block'
+        conteudoExtra.style.display = 'none';
 
         if(window.innerWidth <= 800 && taAparecendo === 0){
             let menu = document.getElementById('menu')
@@ -152,6 +165,7 @@ function butqui(){
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesQuinta[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesQuinta[0] + ')';
+        banner1.style.display = 'block'
         link1.href = linkAnimesQuinta[0];
     
         subtitulo2.innerText = subtitulosAnimesQuinta[1]
@@ -165,7 +179,7 @@ function butqui(){
         link3.href = linkAnimesQuinta[2];
 
         conteudo.style.display = 'block'
-
+        conteudoExtra.style.display = 'none';
         if(window.innerWidth <= 800 && taAparecendo === 0){
             let menu = document.getElementById('menu')
             menu.style.display = 'none'
@@ -189,6 +203,7 @@ function butsex(){
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesSexta[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesSexta[0] + ')';
+        banner2.style.display = 'block'
         link1.href = linkAnimesSexta[0];
     
         subtitulo2.innerText = subtitulosAnimesSexta[1]
@@ -200,7 +215,8 @@ function butsex(){
 
         banner3.style.display = 'none'
         subtitulo3.innerText = ''
-        taAparecendo +=1
+
+        conteudoExtra.style.display = 'none';
 
         if(window.innerWidth <= 800 && taAparecendo === 0){
             let menu = document.getElementById('menu')
@@ -225,17 +241,20 @@ function butsab(){
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesSabado[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesSabado[0] + ')';
+        banner1style.display = 'block'
         link1.href = linkAnimesSabado[0];
     
         subtitulo2.innerText = subtitulosAnimesSabado[1]
         banner2.style.backgroundImage = 'url(' + imagensAnimesSabado[1] + ')';
+        banner2.style.display = 'block'
         link2.href = linkAnimesSabado[1];
 
         conteudo.style.display = 'block'
 
         banner3.style.display = 'none'
         subtitulo3.innerText = ''
-        taAparecendo +=1
+        
+        conteudoExtra.style.display = 'none';
 
         if(window.innerWidth <= 800 && taAparecendo === 0){
             let menu = document.getElementById('menu')
@@ -270,7 +289,8 @@ function butdom(){
         banner3.style.display = 'none'
         subtitulo3.innerText = ''
 
-        taAparecendo +=1
+        conteudoExtra.style.display = 'none';
+        
         if(window.innerWidth <= 800 && taAparecendo === 0){
             let menu = document.getElementById('menu')
             menu.style.display = 'none'
@@ -286,5 +306,46 @@ function butextra(){
     let bannerExtra1 = document.getElementById('conteudo-extra-1');
     let subtituloExtra1 = document.getElementById('subtitulo-extra-1');
     let linkExtra1 = document.getElementById('link-extra-1');
+    
+    const imagensAnimesExtra=["https://www.anitube.vip/media/categories/video/3bd5574cdf7eaa90415f09d4aab9aa9b22.jpg"];
+    const subtitulosAnimesExtra=["Bastard\nAutor: Kazushi Hagiwara\nDireção: Takaharu Ozaki\nEstúdio: LIDENFILMS\nGêneros: Ação Aventura Comédia Ecchi Fantasia Seinen"];
+    const linkAnimesExtra = ["https://www.anitube.vip/anime/bastard-ankoku-no-hakaishin-ona"];
     //Tentar fazer um comando de repetição para mostra todos os conteudos extra sem precisar de muitas linhas.
+    let contador = 0
+
+    if(taAparecendo == 0){
+
+        conteudo.style.display = 'inline'
+        conteudoExtra.style.display = 'inline';
+
+        let titulo = document.getElementById('titulo')
+        titulo.innerText = 'Animes de Extra'
+
+        banner1.style.display = 'none'
+        subtitulo1.innerText = ""
+
+        banner2.style.display = 'none'
+        subtitulo2.innerText = ''
+        
+        banner3.style.display = 'none'
+        subtitulo3.innerText = ''
+
+
+        while(contador <= 7){
+            subtituloExtra1.innerText = subtitulosAnimesExtra[0]
+            bannerExtra1.style.backgroundImage ='url(' + imagensAnimesExtra[0] + ')';
+            link1.href = linkAnimesExtra[0];
+            contador += 1
+        }
+
+        if(window.innerWidth <= 800 && taAparecendo === 0){
+            let menu = document.getElementById('menu')
+            menu.style.display = 'none'
+        }
+
+        taAparecendo +=1
+    }else{
+        conteudo.style.display = 'none'
+        taAparecendo = 0;
+    }
 }

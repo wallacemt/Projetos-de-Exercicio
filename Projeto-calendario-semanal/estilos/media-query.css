@@ -84,7 +84,7 @@ Grandes telas: acima de 1200px
     }
     section#conteudo{
         width: 300px;
-        height: 600px;
+        height: calc(80% + 40px);
         h1{
             font-size: 1.4em;
         }
