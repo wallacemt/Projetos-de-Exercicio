@@ -1,2 +1,347 @@
 @charset "UTF-8";
 
+/*Geral*/
+body, textarea{
+    margin:0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+h1, h2, h3{
+    color: #333;
+}
+p{
+    color:#70747A;
+}
+
+
+/*Navbar*/
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #232A31;
+    padding: 0 2em;
+    position: relative;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    margin-top:15px
+}
+.nav{
+    position: relative;
+}
+.navbar-items{
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    right: 0;
+}
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-items li a {
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 10px;
+    transform: .5s;
+}
+.navbar-items li a:hover{
+    color: #CCC;
+}
+.default-btn{
+    padding: 15px 20px;
+    background-color: #2CC76A;
+    border-radius: 5px;
+    color: #FFF;
+
+}
+
+.default-btn:hover{
+    background-color: #22BB5F;
+}
+
+/*Main Banner*/
+
+.main-banner{
+    background-image: url('../img/mainbanner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    position: relative;
+}
+.main-banner h1, .main-banner p {
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+}
+.main-banner h1{
+    font-size: 54px;
+} 
+.main-banner p{
+    font-size: 32px;
+}
+/*Especialidades*/
+.specialties-container{
+    padding: 5em 0;
+}
+.specialties-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0 ;
+}
+.specialties-container ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.fas{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.fa-shield-alt{
+    color:#2CC76A;
+}
+.fa-rocket{
+    color: #EF3F29;
+}
+.fa-comments{
+    color: #EF8F29;
+}
+.specialties-container ul li h3 {
+    margin-bottom: 25px;
+}
+.specialties-container ul li p {
+    line-height: 24px;
+}
+/* Preços*/
+.pricing-container {
+    padding-bottom: 5em;
+    text-align: center;
+}
+.pricing-container h1{
+    font-size: 36px;
+    margin-top: 0;
+}
+.pricing-container p {
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan{
+    flex: 1 1 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #E8E9EA;
+    color: #333;
+}
+
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2CC76A;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    font-size: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #202B34;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.plan .plan-btn{
+    background-color: #2CC76A;
+    color: #FFF;
+    font-size: 22px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+.plan .recommended{
+    background-color: #F45C57;
+}
+/* Buscar Dominio*/
+.searchdomain-container{
+    background-color: #34454E;
+    text-align: center;
+    padding: 5em 0;
+}
+.searchdomain-container h2{
+    color: #FFF;
+    font-size: 42px;
+    margin-top: 15px;
+}
+.searchdomain-container p {
+    color: #D5D5D5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.searchdomain-container input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+.searchdomain-container input[type=text]{
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+.searchdomain-container input[type=submit]{
+    background-color: #2CC76A;
+    padding: 15px 30px;
+    font-size: 24px;
+}
+/* Contato */
+.contact-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+.contact-container h2{
+    font-size: 36px;
+}
+.content-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contact-container textarea{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+.contact-container input[type=submit]{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2CC76A;
+    color: #FFF;
+}
+/*FOOTER*/
+footer{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: dashed;
+    background-color: black;
+    padding: 15px;
+}
+footer > a{
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #22BB5F;
+
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:1100px) {
+    /*Regras CSS*/
+    .plans-container{
+        width: 95%;
+    }
+    .plan{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    
+    .plans-container, .specialties-container ul{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 572px) {
+    
+    html, body {
+        overflow-x: hidden;
+    }
+    .navbar-items li {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .plan{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .searchdomain-container, .contact-container{
+        padding: 3em 2em;
+    }
+    .searchdomain-container input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .searchdomain-container input:placeholder-shown{
+        font-size: 14px;
+    }
+    .contact-container input, .contact-container textarea{
+        width: 90%;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
