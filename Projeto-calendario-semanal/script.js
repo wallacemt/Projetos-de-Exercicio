@@ -1,4 +1,5 @@
 var conteudo = document.getElementById('conteudo');
+var titulo = document.getElementById('titulo')
 
 var conteudoExtra = document.getElementById("content-extra")
 
@@ -38,9 +39,11 @@ function butseg(){
     if(taAparecendo == 0){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
-        let titulo = document.getElementById('titulo')
         titulo.innerText = 'Animes de Segunda-Feira'
-    
+        subtitulo1.style.display = 'block'
+        subtitulo2.style.display = 'block'
+        subtitulo3.style.display = 'block'
+
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesSegunda[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesSegunda[0] + ')';
@@ -77,8 +80,9 @@ function butter(){
     if(taAparecendo == 0){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
-        let titulo = document.getElementById('titulo')
         titulo.innerText = 'Animes de Terça-Feira'
+        subtitulo1.style.display = 'block'
+        subtitulo2.style.display = 'block'
     
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesTerca[0]
@@ -103,9 +107,6 @@ function butter(){
         banner3.style.display = 'none'
         subtitulo3.innerText = ''
 
-        banner2.style.display = 'none'
-        subtitulo2.innerText = ''
-
         taAparecendo +=1
     }else{
         conteudo.style.display = 'none'
@@ -115,25 +116,34 @@ function butter(){
 }
 
 function butqua(){
-    const subtitulosAnimesQuarta = ["Mato Seihei no Slave\nEstúdio: Seven Arcs\nStatus: Em Progresso\nGêneros: Ação Ecchi Fantasia", "Shangri-La Frontier\nAutor: Ryousuke Fuji e Katarina\nDireção: Toshiyuki Kubooka\nEstúdio: C2C\nGêneros: Ação Aventura Fantasia Jogos Shounen"];
-    const imagensAnimesQuarta = ["https://www.anitube.vip/media/categories/video/5d9539763ee2a79091013e3792bbf267.jpg", "https://www.anitube.vip/media/categories/video/e5bb61f161dadfca4ebe6d6016a94462940.jpg"];
-    const linkAnimesQuarta = ['https://www.anitube.vip/anime/mato-seihei-no-slave', 'https://www.anitube.vip/anime/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su'];
+    const subtitulosAnimesQuarta = ["Mato Seihei no Slave\nEstúdio: Seven Arcs\nStatus: Em Progresso\nGêneros: Ação Ecchi Fantasia", "Shangri-La Frontier\nAutor: Ryousuke Fuji e Katarina\nDireção: Toshiyuki Kubooka\nEstúdio: C2C\nGêneros: Ação Aventura Fantasia Jogos Shounen", "Shaman King: Flowers\nEstúdio: Bridge\nGêneros: Ação, Aventura, Sobrenatural"];
+
+    const imagensAnimesQuarta = ["https://www.anitube.vip/media/categories/video/5d9539763ee2a79091013e3792bbf267.jpg", "https://www.anitube.vip/media/categories/video/e5bb61f161dadfca4ebe6d6016a94462940.jpg", "https://cdn.anicdn.net/media/categories/video/afa0c448ffaca160a7d4ee03b04f1997.jpg"];
+
+    const linkAnimesQuarta = ['https://www.anitube.vip/anime/mato-seihei-no-slave', 'https://www.anitube.vip/anime/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su',"https://www.anitube.vip/anime/shaman-king-flowers"];
     if(taAparecendo == 0){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
-        let titulo = document.getElementById('titulo')
         titulo.innerText = 'Animes de Quarta-Feira'
-    
+        subtitulo1.style.display = 'block'
+        subtitulo2.style.display = 'block'
+        subtitulo3.style.display = 'block'
+
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesQuarta[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesQuarta[0] + ')';
-        banner2.style.display = 'block'
+        banner1.style.display = 'block'
         link1.href = linkAnimesQuarta[0];
     
         subtitulo2.innerText = subtitulosAnimesQuarta[1]
         banner2.style.backgroundImage = 'url(' + imagensAnimesQuarta[1] + ')';
         banner2.style.display = 'block'
         link2.href = linkAnimesQuarta[1];
+
+        subtitulo3.innerText = subtitulosAnimesQuarta[2]
+        banner3.style.backgroundImage = 'url(' + imagensAnimesQuarta[2] + ')';
+        banner3.style.display = 'block'
+        link3.href = linkAnimesQuarta[2];
 
         conteudo.style.display = 'block'
         conteudoExtra.style.display = 'none';
@@ -142,9 +152,6 @@ function butqua(){
             let menu = document.getElementById('menu')
             menu.style.display = 'none'
         }
-
-        banner3.style.display = 'none'
-        subtitulo3.innerText = ''
         taAparecendo +=1
     }else{
         conteudo.style.display = 'none'
@@ -159,9 +166,10 @@ function butqui(){
     if(taAparecendo == 0){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
-        let titulo = document.getElementById('titulo')
         titulo.innerText = 'Animes de Quinta-Feira'
-    
+        subtitulo1.style.display = 'block'
+        subtitulo2.style.display = 'block'
+        subtitulo3.style.display = 'block'
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesQuinta[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesQuinta[0] + ')';
@@ -170,7 +178,7 @@ function butqui(){
     
         subtitulo2.innerText = subtitulosAnimesQuinta[1]
         banner2.style.backgroundImage = 'url(' + imagensAnimesQuinta[1] + ')';
-        banner3.style.display = 'block'
+        banner2.style.display = 'block'
         link2.href = linkAnimesQuinta[1];
 
         subtitulo3.innerText = subtitulosAnimesQuinta[2]
@@ -197,13 +205,13 @@ function butsex(){
     if(taAparecendo == 0){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
-        let titulo = document.getElementById('titulo')
         titulo.innerText = 'Animes de Sexta-Feira'
-    
+        subtitulo1.style.display = 'block'
+        subtitulo2.style.display = 'block'
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesSexta[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesSexta[0] + ')';
-        banner2.style.display = 'block'
+        banner1.style.display = 'block'
         link1.href = linkAnimesSexta[0];
     
         subtitulo2.innerText = subtitulosAnimesSexta[1]
@@ -235,13 +243,13 @@ function butsab(){
     if(taAparecendo == 0){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
-        let titulo = document.getElementById('titulo')
         titulo.innerText = 'Animes de Sabado'
-    
+        subtitulo1.style.display = 'block'
+        subtitulo2.style.display = 'block'
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesSabado[0]
         banner1.style.backgroundImage ='url(' + imagensAnimesSabado[0] + ')';
-        banner1style.display = 'block'
+        banner1.style.display = 'block'
         link1.href = linkAnimesSabado[0];
     
         subtitulo2.innerText = subtitulosAnimesSabado[1]
@@ -274,12 +282,13 @@ function butdom(){
     if(taAparecendo == 0){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
-        let titulo = document.getElementById('titulo')
         titulo.innerText = 'Animes de Domingo'
     
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesDomingo[0]
+        subtitulo1.style.display = 'block'
         banner1.style.backgroundImage ='url(' + imagensAnimesDomingo[0] + ')';
+        banner1.style.display = 'block'
         link1.href = linkAnimesDomingo[0];
         conteudo.style.display = 'block'
 
@@ -303,11 +312,12 @@ function butdom(){
 
 }
 function butextra(){
-    let bannerExtra1 = document.getElementById('conteudo-extra-1');
-    let subtituloExtra1 = document.getElementById('subtitulo-extra-1');
-    let linkExtra1 = document.getElementById('link-extra-1');
+
+    let bannerExtra = document.querySelectorAll('[id^="conteudo-extra-"]');
+    let subtituloExtra = document.querySelectorAll('[id^="subtitulo-extra-"]');
+    let linkExtra = document.querySelectorAll('[id^="link-extra-"]');
     
-    const imagensAnimesExtra=["https://www.anitube.vip/media/categories/video/3bd5574cdf7eaa90415f09d4aab9aa9b22.jpg"];
+    const imagensAnimesExtra=["https://www.anitube.vip/media/categories/video/3bd5574cdf7eaa90415f09d4aab9aa9b22.jpg", "https://www.anitube.vip/media/categories/video/dce178cbb76fa42d44cb3e993e9fcaef.jpg"];
     const subtitulosAnimesExtra=["Bastard\nAutor: Kazushi Hagiwara\nDireção: Takaharu Ozaki\nEstúdio: LIDENFILMS\nGêneros: Ação Aventura Comédia Ecchi Fantasia Seinen"];
     const linkAnimesExtra = ["https://www.anitube.vip/anime/bastard-ankoku-no-hakaishin-ona"];
     //Tentar fazer um comando de repetição para mostra todos os conteudos extra sem precisar de muitas linhas.
@@ -322,20 +332,20 @@ function butextra(){
         titulo.innerText = 'Animes de Extra'
 
         banner1.style.display = 'none'
-        subtitulo1.innerText = ""
+        subtitulo1.style.display = "none"
 
         banner2.style.display = 'none'
-        subtitulo2.innerText = ''
+        subtitulo2.style.display = "none"
         
         banner3.style.display = 'none'
-        subtitulo3.innerText = ''
+        subtitulo3.style.display = 'none'
 
-
-        while(contador <= 7){
-            subtituloExtra1.innerText = subtitulosAnimesExtra[0]
-            bannerExtra1.style.backgroundImage ='url(' + imagensAnimesExtra[0] + ')';
-            link1.href = linkAnimesExtra[0];
-            contador += 1
+        
+        for (let i = 0; i < bannerExtra.length; i++){
+            bannerExtra[i].style.backgroundImage ='url(' + imagensAnimesExtra[0] + ')';
+            subtituloExtra[i].textContent = subtitulosAnimesExtra[0]; // Se você tem apenas um subtítulo, pode usar apenas o primeiro elemento.
+            linkExtra[i].href = linkAnimesExtra[0];
+            //contador += 1
         }
 
         if(window.innerWidth <= 800 && taAparecendo === 0){
