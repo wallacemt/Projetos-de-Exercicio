@@ -40,6 +40,7 @@ function butseg(){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
         titulo.innerText = 'Animes de Segunda-Feira'
+        titulo.style.color = '#feffb3'
         subtitulo1.style.display = 'block'
         subtitulo2.style.display = 'block'
         subtitulo3.style.display = 'block'
@@ -81,6 +82,7 @@ function butter(){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
         titulo.innerText = 'Animes de Terça-Feira'
+        titulo.style.color = '#feffb3'
         subtitulo1.style.display = 'block'
         subtitulo2.style.display = 'block'
     
@@ -125,6 +127,7 @@ function butqua(){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
         titulo.innerText = 'Animes de Quarta-Feira'
+        titulo.style.color = '#feffb3'
         subtitulo1.style.display = 'block'
         subtitulo2.style.display = 'block'
         subtitulo3.style.display = 'block'
@@ -167,6 +170,7 @@ function butqui(){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
         titulo.innerText = 'Animes de Quinta-Feira'
+        titulo.style.color = '#feffb3'
         subtitulo1.style.display = 'block'
         subtitulo2.style.display = 'block'
         subtitulo3.style.display = 'block'
@@ -206,6 +210,7 @@ function butsex(){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
         titulo.innerText = 'Animes de Sexta-Feira'
+        titulo.style.color = '#feffb3'
         subtitulo1.style.display = 'block'
         subtitulo2.style.display = 'block'
         //Inserindo intens dentro da section
@@ -244,6 +249,7 @@ function butsab(){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
         titulo.innerText = 'Animes de Sabado'
+        titulo.style.color = '#feffb3'
         subtitulo1.style.display = 'block'
         subtitulo2.style.display = 'block'
         //Inserindo intens dentro da section
@@ -283,6 +289,7 @@ function butdom(){
         //Area de cabeçalho
         conteudo.style.display = 'inline'
         titulo.innerText = 'Animes de Domingo'
+        titulo.style.color = '#feffb3'
     
         //Inserindo intens dentro da section
         subtitulo1.innerText = subtitulosAnimesDomingo[0]
@@ -317,9 +324,11 @@ function butextra(){
     let subtituloExtra = document.querySelectorAll('[id^="subtitulo-extra-"]');
     let linkExtra = document.querySelectorAll('[id^="link-extra-"]');
     
-    const imagensAnimesExtra=["https://www.anitube.vip/media/categories/video/3bd5574cdf7eaa90415f09d4aab9aa9b22.jpg", "https://www.anitube.vip/media/categories/video/dce178cbb76fa42d44cb3e993e9fcaef.jpg"];
-    const subtitulosAnimesExtra=["Bastard\nAutor: Kazushi Hagiwara\nDireção: Takaharu Ozaki\nEstúdio: LIDENFILMS\nGêneros: Ação Aventura Comédia Ecchi Fantasia Seinen"];
-    const linkAnimesExtra = ["https://www.anitube.vip/anime/bastard-ankoku-no-hakaishin-ona"];
+    const imagensAnimesExtra=["https://www.anitube.vip/media/categories/video/3bd5574cdf7eaa90415f09d4aab9aa9b22.jpg", "https://encurtador.com.br/dnDGP", "https://image.tmdb.org/t/p/w342/yWLGhF6Rvv7oWC9ozzO0rvfQwYt.jpg", "https://www.anitube.vip/media/categories/video/6191ef71619248a9be7992300a3aef9c583.jpg", "https://www.anitube.vip/media/categories/video/24ff43761bcc71c3bfe5e8d4168da636.jpg", "https://www.anitube.vip/media/categories/video/8654b7e38946e9d533caf185a8fef8b7276.jpg"];
+
+    const subtitulosAnimesExtra=["Bastard\nAutor: Kazushi Hagiwara\nDireção: Takaharu Ozaki\nEstúdio: LIDENFILMS\nGêneros: Ação Aventura Comédia Ecchi Fantasia Seinen", "Ao no Exorcist\nGêneros: Ação Fantasia","(Des)encanto\n Gênero: Animação Aventura Comédia", "Keijo\nAutor: Daichi Sorayomi\nDireção: Hideya Takahashi\nEstúdio: Xebec\nGêneros: Ação Ecchi Esporte Shounen", "Dungeon Meshi\nEstúdio: Trigger\nGêneros: Comédia Fantasia", "Hajimete no Gal\nAutor: Meguru Ueno\nDireção: Hiroyuki Furukawa\nEstúdio: NAZ\nGêneros: Comédia Ecchi Romance Shounen Escolar"];
+
+    const linkAnimesExtra = ["https://www.anitube.vip/anime/bastard-ankoku-no-hakaishin-ona", "https://darkmahou.org/ao-no-exorcist/", "https://www.anitube.vip/anime/keijo", "https://www.anitube.vip/anime/dungeon-meshi", "https://www.anitube.vip/anime/39f08a00833ef97fdbdb4a5ca62d76231d4b72be"];
     //Tentar fazer um comando de repetição para mostra todos os conteudos extra sem precisar de muitas linhas.
     let contador = 0
 
@@ -330,6 +339,7 @@ function butextra(){
 
         let titulo = document.getElementById('titulo')
         titulo.innerText = 'Animes de Extra'
+        titulo.style.color = "#EB3215"
 
         banner1.style.display = 'none'
         subtitulo1.style.display = "none"
@@ -342,9 +352,9 @@ function butextra(){
 
         
         for (let i = 0; i < bannerExtra.length; i++){
-            bannerExtra[i].style.backgroundImage ='url(' + imagensAnimesExtra[0] + ')';
-            subtituloExtra[i].textContent = subtitulosAnimesExtra[0]; // Se você tem apenas um subtítulo, pode usar apenas o primeiro elemento.
-            linkExtra[i].href = linkAnimesExtra[0];
+            bannerExtra[i].style.backgroundImage ='url(' + imagensAnimesExtra[i] + ')';
+            subtituloExtra[i].textContent = subtitulosAnimesExtra[i]; // Se você tem apenas um subtítulo, pode usar apenas o primeiro elemento.
+            linkExtra[i].href = linkAnimesExtra[i];
             //contador += 1
         }
 
@@ -359,3 +369,4 @@ function butextra(){
         taAparecendo = 0;
     }
 }
+//FALTA COLOCAR O PARAGRAFO COM O TITULO DO CONTEUDO.

@@ -62,7 +62,11 @@ Grandes telas: acima de 1200px
     #conteudo{
         margin-top: auto;
     }
+    footer{
+        margin-left: 1.8px;
+    }
 }
+
 
 @media screen and (max-width: 600px){/*Media query para celular*/
     body{
@@ -84,7 +88,7 @@ Grandes telas: acima de 1200px
     }
     section#conteudo{
         width: 300px;
-        height: calc(80% + 40px);
+        height: calc(80% + 10px); 
         h1{
             font-size: 1.4em;
         }
@@ -101,8 +105,10 @@ Grandes telas: acima de 1200px
     i#icone-menu{
         display:block;
         background-color: #4b12f715;
-        margin: auto;
-        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -10;
+        margin-bottom: 1;
         color: white;
         width: 100px;
         height: 30px;
@@ -114,5 +120,12 @@ Grandes telas: acima de 1200px
     }
     #conteudo{
         margin-top: auto;
+    }
+    footer{
+        font-size: 13px;
+        width: 50px;
+        margin-left: 8px;
+        border-radius: 50%;
+        box-sizing: border-box;
     }
 }
