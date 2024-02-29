@@ -33,7 +33,7 @@ Grandes telas: acima de 1200px
         h1{
             font-size: 2em;
         }
-        p{
+        p, h2{
             width: 400px;
             display: block;
             columns: 1;
@@ -87,17 +87,21 @@ Grandes telas: acima de 1200px
         text-align: right;
     }
     section#conteudo{
-        width: 300px;
-        height: calc(80% + 10px); 
+        width: 330px;
+        height: calc(80% + 30px); 
         h1{
             font-size: 1.4em;
         }
-        p{
+        p, h2{
+            font-size: 1.3em;
             width: 280px
         };
+        p{
+            font-size: 0.9em;
+        }
     }
     .conteudo-item{
-        width: 280px;
+        width: 290px;
     }
     .conteudo-item:hover{
         width: 300px;

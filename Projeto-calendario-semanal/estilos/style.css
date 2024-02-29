@@ -43,8 +43,8 @@ section#conteudo{
     left: 50%;
     background-image: linear-gradient(to bottom, #6210afcb,#4b12f7,#4207f5, #16074a00 );
     transform: translate(-50%, -50%);
-    height: 80vh;
-    width: 600px;
+    height: 90vh;
+    width: 590px;
     border-radius: 50px;
     background-repeat: no-repeat;
     overflow-x: auto ;
@@ -68,8 +68,25 @@ section#conteudo{
         padding-top: 10px;
         
     }
+    h2{
+        color: #F7E311;
+        background-image: linear-gradient(to top, #4000ff, #16074adc );
+        font-weight: bolder;
+        text-align: center;
+        margin: auto;
+        margin-top:-20px;
+        margin-bottom: 20px;
+        width: 300px;
+        column-width: 180px;
+        padding-top: 10px;
+        transition: 1s;
+    }
+    h2:hover{
+        color: #FF4A09;
+    }
     
 }
+
 
 #menu{
     text-align: right;
@@ -149,3 +166,7 @@ footer a:hover{
     color: #c8b6ff;
     transition: 1s;
 }
+
+li > h2{
+    color: white;
+}  
