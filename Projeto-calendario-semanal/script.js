@@ -400,7 +400,7 @@ function butextra(){
     
     const tituloanimesExtra = ["Bastard","Ao no Exorcist","(Des)encanto","Keijo","Dungeon Meshi", "Hajimete no Gal"  ]
 
-    const subtitulosAnimesExtra=["Autor: Kazushi Hagiwara\nDireção: Takaharu Ozaki\nEstúdio: LIDENFILMS\nGêneros: Ação Aventura Comédia Ecchi Fantasia Seinen", "Gêneros: Ação Fantasia","Gênero: Animação Aventura Comédia", "Autor: Daichi Sorayomi\nDireção: Hideya Takahashi\nEstúdio: Xebec\nGêneros: Ação Ecchi Esporte Shounen", "Estúdio: Trigger\nGêneros: Comédia Fantasia", "Autor: Meguru Ueno\nDireção: Hiroyuki Furukawa\nEstúdio: NAZ\nGêneros: Comédia Ecchi Romance Shounen Escolar"];
+    const subtitulosAnimesExtra=["Autor: Kazushi Hagiwara\n Direção: Takaharu Ozaki\n Estúdio: LIDENFILMS\n Gêneros: Ação Aventura Comédia Ecchi Fantasia Seinen", "Gêneros: Ação Fantasia","Gênero: Animação Aventura Comédia", "Autor: Daichi Sorayomi\n Direção: Hideya Takahashi\n Estúdio: Xebec\n Gêneros: Ação Ecchi Esporte Shounen", "Estúdio: Trigger\n Gêneros: Comédia Fantasia", "Autor: Meguru Ueno\n Direção: Hiroyuki Furukawa\n Estúdio: NAZ\n Gêneros: Comédia Ecchi Romance Shounen Escolar"];
     
     const linkAnimesExtra = ["https://www.anitube.vip/anime/bastard-ankoku-no-hakaishin-ona", "https://darkmahou.org/ao-no-exorcist/", "https://www.anitube.vip/anime/keijo", "https://www.anitube.vip/anime/dungeon-meshi", "https://www.anitube.vip/anime/39f08a00833ef97fdbdb4a5ca62d76231d4b72be"];
     //Tentar fazer um comando de repetição para mostra todos os conteudos extra sem precisar de muitas linhas.
