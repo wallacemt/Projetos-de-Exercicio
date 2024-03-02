@@ -1,24 +1,24 @@
-var conteudo = document.getElementById('conteudo');
-var titulo = document.getElementById('titulo')
+let conteudo = document.getElementById('conteudo');
+let titulo = document.getElementById('titulo')
 
-var conteudoExtra = document.getElementById("content-extra")
+let conteudoExtra = document.getElementById("content-extra")
 
-var banner1 = document.getElementById('conteudo-1');
-var tituloconteudo1 = document.getElementById('titulo-conteudo-1')
-var subtitulo1 = document.getElementById('subtitulo-1');
-var link1 = document.getElementById('link-1');
+let banner1 = document.getElementById('conteudo-1');
+let tituloconteudo1 = document.getElementById('titulo-conteudo-1')
+let subtitulo1 = document.getElementById('subtitulo-1');
+let link1 = document.getElementById('link-1');
 
-var banner2 = document.getElementById('conteudo-2');
-var tituloconteudo2 = document.getElementById('titulo-conteudo-2')
-var subtitulo2 = document.getElementById('subtitulo-2');
-var link2 = document.getElementById('link-2');
+let banner2 = document.getElementById('conteudo-2');
+let tituloconteudo2 = document.getElementById('titulo-conteudo-2')
+let subtitulo2 = document.getElementById('subtitulo-2');
+let link2 = document.getElementById('link-2');
 
-var banner3 = document.getElementById('conteudo-3');
-var tituloconteudo3 = document.getElementById('titulo-conteudo-3')
-var subtitulo3 = document.getElementById('subtitulo-3');
-var link3 = document.getElementById('link-3');
+let banner3 = document.getElementById('conteudo-3');
+let tituloconteudo3 = document.getElementById('titulo-conteudo-3')
+let subtitulo3 = document.getElementById('subtitulo-3');
+let link3 = document.getElementById('link-3');
 
-var taAparecendo = 0
+let taAparecendo = 0
 
 function menu(){
     let menu = document.getElementById('menu')
