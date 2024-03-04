@@ -111,4 +111,4 @@ Projeto de um esquema de um calendario de conteudos onde e exebido o conteudo co
     -Javascript
 
 
-<a href="https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-calendario-semanal/index.html">Para acessar, clique aqui</a>
+<a href="https://wallacemt.github.io/projeto-calendario-semanal/index.html">Para acessar, clique aqui</a>
