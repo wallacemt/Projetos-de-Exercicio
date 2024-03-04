@@ -103,7 +103,7 @@ Progeto feito usando iframes para exibir redes-sociasi na tela, mas de uma manei
 <a href="https://wallacemt.github.io/progeto-redes-sociais/index.html">Para acessar, clique aqui</a>
 
 ## 📆 Progeto Calendario
-Projeto de um esquema de um calendario de conteudos onde e exebido o conteudo comforme o dia que o usuario clica, que aparece em um menu lateral, site feito com responsividade usando Media Query.
+Projeto de um esquema de um calendário de conteúdos onde é exibido o conteúdo conforme o dia que o usuário clica, o qual aparece em um menu lateral. O site é feito com responsividade utilizando Media Queries..
 
     Tecnologias usadas:
     -HTML
