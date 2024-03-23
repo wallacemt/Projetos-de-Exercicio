@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body{
     background-image: linear-gradient(to left, #e88383, #97911c);
-    background-image: url('foto-grande-angular-de-arvores-altas-da-floresta-com-galhos-caidos-durante-o-outono.jpg');
+    background-image: url(../images/bacground.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
