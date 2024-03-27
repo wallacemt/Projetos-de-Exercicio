@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Retangulo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Canvas Retangulo🎨◻</h1>
+    <canvas width="600px" height="300px" id="Meu-Canva"></canvas>
+
+    <script type="text/javascript">
+        let canvas = document.getElementById("Meu-Canva");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle="blue"
+        ctx.rect(140,40,300,100)
+        ctx.fill();
+    </script>
+</body>
+</html>

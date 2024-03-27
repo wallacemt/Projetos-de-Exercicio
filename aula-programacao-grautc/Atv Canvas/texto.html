@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Canvas Texto✍</h1>
+    <canvas width="600px" height="300px" id="Meu-Canva"></canvas>
+
+    <script type="text/javascript">
+        let canvas = document.getElementById("Meu-Canva");
+        let ctx = canvas.getContext("2d");
+        ctx.font = "50px Cursive"
+        ctx.color="black"
+        ctx.fillText("Texto no Canva", 110, 50)
+        ctx.strokeText("Texto no Canva", 110, 150)
+    </script>
+</body>
+</html>

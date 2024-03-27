@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Canvas Circulo🎨🏀</h1>
+    <canvas width="600px" height="300px" id="Meu-Canva"></canvas>
+
+    <script type="text/javascript">
+        let canvas = document.getElementById("Meu-Canva");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle="purple"
+        ctx.beginPath();
+        ctx.arc(310, 70, 50, 0,Math.PI*2)
+        ctx.closePath();
+        ctx.fill()
+    </script>
+</body>
+</html>
