@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background: url(midias/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 500px;
+    border-radius: 20px;
+    
+}
+h1{
+    padding: 20px;
+}
+form > p > input{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+fieldset{
+    border-radius: 20px;
+    width: 450px;
+    margin: auto;
+    background: linear-gradient(to bottom, #025159,#04bfbf74, #038c8c7c,#BF9A78, #8C452B );
+}
+
+fieldset input[type=submit]{
+    background-color: rgb(31, 205, 31);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+fieldset input[type=submit]:hover{
+    background-color: rgb(14, 255, 14);
+    padding: 12px;
+    transition: 1s;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.612);
+    color: white
+}
+fieldset input[type=reset]{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+fieldset input[type=reset]:hover{
+    transition: 1s;
+    background-color: rgb(14, 255, 14);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.612);
+    padding: 12px;
+    background-color: rgb(255, 64, 64);
+    color: #010e26eb;
+
+}
+
+fieldset > p > input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1.3px solid rgb(48, 48, 48);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+}
+fieldset p select{
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+}
+fieldset p{
+    margin-top: 10px;
+}
+fieldset legend{
+    background-color: #010e26eb;
+    border-radius: 4px;
+    left: 1px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+fieldset p label{
+    background-color: #010e26db;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+}
+fieldset input::placeholder{
+    text-align: center;
+}

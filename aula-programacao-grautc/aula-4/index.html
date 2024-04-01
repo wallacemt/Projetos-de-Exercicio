@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video - Audio - Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Formulário</h2>
+        <section id="formulario">
+            <form  method="get">
+                <p>Nome:<input type="text" name="nome" placeholder="Nome"></p>
+                
+                <p>Sobrenome:<input type="text" name="sobrenome"placeholder="Sobrenome"></p>
+
+                <p><input type="submit" value="Enviar"></p><br>
+            </form>
+            
+            <form action="get">
+                <fieldset>
+                    <legend>Dados Pesoais</legend>
+                    <p> 
+                        <label for="inome">Nome</label>
+                        <input type="text" name="Nome" id="inome" minlength="5"
+                        maxlength="20" required placeholder="Nome" autocomplete="name">
+                    </p>
+                    <p>
+                        <label for="isobrenome">Sobrenome</label>
+                        <input type="text" nome="Sobrenome" id="isobrenome" minlength="5" maxlength="20px" required placeholder="Sobrenome">
+                    </p>
+                    <p>
+                        <label for="iest">Cidade</label>
+                        <select name="estado" id="iest">
+                            <option value="" selected>---Escolha---</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="imail">Email</label>
+                        <input type="email" name="email" id="imail" required autocomplete="email" placeholder="seuemail@gmail.com">
+                    </p>
+                    <p>
+                        <label for="itel">Telefone</label>
+                        <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx) xxxx-xxxx">
+                    </p>
+
+                        <p>
+                            <input type="submit" value="Receba">
+                            <input type="reset" value="Limpar">
+                        </p> <br>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
