@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manga Livre</title>
     <link rel="stylesheet" href="/estilo/style.css">
+    <link rel="stylesheet" href="/estilo/mediaquery.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <div class="navbar-container">
         <nav>
-            <a href="#"><img  class="logo" src="" alt="logo"></a>
+            <a href="#"><img  class="logo" src="./img/logo.png" alt="logo"></a>
             <ul class="navbar-items">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Animes</a></li>
-                <li><a href="#">Lançamentos</a></li>
-                <li><a href="#" class="default-btn">Cadastra-se</a></li>
-                <li><a href="#" class="default-btn">Login</a></li>
+                <li><a class="lado" href="#">Lançamentos</a></li>
+
+                <li><a href="#" class="default-login-btn">Login</a></li>
+                <li><a href="#" class="default-cads-btn">Cadastra-se</a></li>
+                <i class="fa-solid fa-bars" id="menu" onclick="menu()"></i>
             </ul>
         </nav>
     </div>
 
-
-    <script src="script.js"></script>
+    
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/1aad65ad05.js" crossorigin="anonymous"></script>
 </body>
 </html>

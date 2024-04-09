@@ -4,6 +4,19 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --cor0: #014040;
+    --cor1: #02735E;
+    --cor2: #03A678;
+    --cor3: #F27405;
+    --cor4: #731702;
+    
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque:'Bebas Neue', sans-serif;
+    --font-android: 'Android', sans-serif;
+}
+
 .navbar-container{
     width: 100%;
     height: 80px;
@@ -13,8 +26,9 @@
     box-sizing: border-box;
 }
 .logo{
-    width: 50px;
-    margin-top:15px
+    width: 70px;
+    margin-top:3px;
+    border-radius: 50%;
 }
 .nav{
     position: relative;
@@ -29,9 +43,9 @@
     right: 0;
 }
 .navbar-items li{
-    display: inline-block;
+    display: inline-table;
     text-transform: uppercase;
-    margin-left: 25px;
+    margin-left: 5px;
 }
 .navbar-items li a {
     color: #FFF;
@@ -42,14 +56,30 @@
 .navbar-items li a:hover{
     color: #CCC;
 }
-.default-btn{
+.default-login-btn{
     padding: 15px 20px;
-    background-color: #2CC76A;
+    background-color: var(--cor2);
     border-radius: 5px;
     color: #FFF;
 
 }
+.default-login-btn:hover{
+    background-color: var(--cor0);
+}
 
-.default-btn:hover{
-    background-color: #22BB5F;
+.default-cads-btn{
+    padding: 15px 20px;
+    background-color: var(--cor3);
+    border-radius: 5px;
+    color: #FFF;
+
+}
+.default-cads-btn:hover{
+    background-color: var(--cor4);
+}
+#menu{
+    display: none;
+}
+.lado{
+    margin-right: 100px;
 }

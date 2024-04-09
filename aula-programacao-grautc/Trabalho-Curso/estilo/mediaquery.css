@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 660px) {
+    
+    html, body {
+        overflow-x: hidden;
+    }
+    .navbar-items li {
+        font-size: 10px;
+        margin-left: 10px;
+        display: none;
+    }
+    #menu{
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        font-size: 40px;
+        cursor: pointer;
+        margin-right: 45px;
+        color: white
+    }
+
+}
