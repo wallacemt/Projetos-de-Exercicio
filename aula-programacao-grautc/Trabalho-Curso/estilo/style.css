@@ -33,7 +33,7 @@
 .nav{
     position: relative;
 }
-.navbar-items{
+#navbar-items{
     list-style: none;
     position: absolute;
     display: inline-block;
@@ -42,18 +42,18 @@
     margin: 0;
     right: 0;
 }
-.navbar-items li{
+#navbar-items li{
     display: inline-table;
     text-transform: uppercase;
     margin-left: 5px;
 }
-.navbar-items li a {
+#navbar-items li a {
     color: #FFF;
     text-decoration: none;
     margin-right: 10px;
     transform: .5s;
 }
-.navbar-items li a:hover{
+#navbar-items li a:hover{
     color: #CCC;
 }
 .default-login-btn{
