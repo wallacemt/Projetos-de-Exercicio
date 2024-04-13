@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i,600,600i,700,700i&display=swap'); 
 :root {
     --cor0: #014040;
     --cor1: #02735E;
@@ -12,52 +15,139 @@
     --cor3: #F27405;
     --cor4: #731702;
     
-    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --font-destaque:'Bebas Neue', sans-serif;
-    --font-android: 'Android', sans-serif;
+    --font-padrao: "Fira Sans Condensed", sans-serif;
+    --font-destaque:"Poppins", sans-serif;
 }
 
-.navbar-container{
-    width: 100%;
-    height: 80px;
-    background-color: #232A31;
-    padding: 0 2em;
-    position: relative;
-    box-sizing: border-box;
-}
-.logo{
+#logo-img{
     width: 70px;
-    margin-top:3px;
+    height: 80px;
     border-radius: 50%;
-}
-.nav{
+    margin-top: 5px;
     position: relative;
 }
-#navbar-items{
-    list-style: none;
-    position: absolute;
-    display: inline-block;
-    height: 80px;
-    line-height: 80px;
+
+.header {
+    background-color: #232A31;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: relative;
+    display: flex;
+    width: 100%;
+    z-index: 3;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.header ul {
     margin: 0;
-    right: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
 }
-#navbar-items li{
-    display: inline-table;
+
+.header li a {
+    display: inline;
+    font-size: 10px;
+    color: white;
+    padding: 20px 20px;
     text-transform: uppercase;
-    margin-left: 5px;
-}
-#navbar-items li a {
-    color: #FFF;
     text-decoration: none;
-    margin-right: 10px;
-    transform: .5s;
+    font-size: 15px;
+    font-family: var(--font-destaque);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 91px;
+    margin: 0px 20px 0px 10px;
+    
 }
-#navbar-items li a:hover{
-    color: #CCC;
+
+li a:hover{
+    background-color: #02735e59;
+    border-radius: 10px;
 }
+
+  
+  /* menu */
+  
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: .2s ease-out;
+}
+  
+  /* menu icon */
+  
+.header .menu-icon {
+    cursor: pointer;
+    display: flex;
+    padding: 45px 30px;
+    position: relative;
+    user-select: none;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+  
+.header .menu-icon .navicon {
+    background: var(--cor3);
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: .2s ease-out;
+    width: 18px;
+}
+  
+.header .menu-icon .navicon:before,.header .menu-icon .navicon:after {
+    background: var(--cor1);
+    content: '';
+    display: block;
+    height: 100%;
+    position: relative;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+  
+
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+  
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+  
+  /* menu btn */
+  
+.header .menu-btn {
+    display: none;
+}
+  
+.header .menu-btn:checked ~ .menu {
+    max-height: 450px;
+}
+  
+.header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+  /* Animacao do menu */
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-65deg);
+}
+  
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(65deg);
+}
+  
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
 .default-login-btn{
-    padding: 15px 20px;
+    
+    padding: 5px;
+    height: 75px;
+    margin-right: 100px;
+    width: 100px;
+    text-align: center;
     background-color: var(--cor2);
     border-radius: 5px;
     color: #FFF;
@@ -68,7 +158,11 @@
 }
 
 .default-cads-btn{
-    padding: 15px 20px;
+    padding: 5px;
+    text-align: center;
+    height: 75px;
+    margin-top: 5px;
+    width: 100px;
     background-color: var(--cor3);
     border-radius: 5px;
     color: #FFF;
@@ -77,9 +171,28 @@
 .default-cads-btn:hover{
     background-color: var(--cor4);
 }
-#menu{
-    display: none;
+h5{
+    background-color: rgb(3, 151, 151);
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+    font-size: 2em;
+    font-family: var(--font-destaque);
+    font-weight: 700;
 }
-.lado{
-    margin-right: 100px;
+.carousel-inner p {
+    background-color: #ff983dce;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    font-family: var(--font-destaque);
+    font-weight: 600;
+}
+.carousel-control-prev-icon{
+    background-color:#014040;
+}
+.carousel-control-next-icon{
+    background-color:#014040;
 }

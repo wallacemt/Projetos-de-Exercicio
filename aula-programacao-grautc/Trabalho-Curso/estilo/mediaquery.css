@@ -1,23 +1,21 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 660px) {
+@media (min-width: 768px) {
+        .header{
+            display: flex;
+        }
+        .header li {
+          float: left;
+          font-size: 50px;
+        }
+        .header .menu {
+          clear: none;
+          float: right;
+          max-height: none;
+        }
+        .header .menu-icon {
+          display: none;
+        }
     
-    html, body {
-        overflow-x: hidden;
-    }
-    #menu{
-        display: inline-block;
-        height: 10px;
-        width: 10px;
-        font-size: 40px;
-        cursor: pointer;
-        margin-right: 45px;
-        color: white
-    }
-    #navbar-items li{
-        display: none;
-        line-height: 0px;
-        font-size: 7px;
-    }
-
 }
+
