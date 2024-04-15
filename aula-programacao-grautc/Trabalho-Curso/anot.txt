@@ -1,5 +1,0 @@
-Menu legal e responsivo(Feito);
-
-criar o carrosel para apresentar os mangas com o mini baner clicavel(Feito);
-
-e apos isso iniciar a criação do main, fazer coisa simples(dev)
