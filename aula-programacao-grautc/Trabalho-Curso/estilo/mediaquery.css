@@ -3,6 +3,7 @@
 @media (min-width: 808px) {
         .header{
             display: flex;
+            justify-content: space-between;
         }
         .header li {
           float: left;
