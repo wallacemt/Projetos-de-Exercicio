@@ -33,9 +33,10 @@ body{
 }
 #logo-img{
     width: 80px;
-    height: 90px;
+    max-height: 90px;
     border-radius: 50%;
     margin-top: 5px;
+    margin-bottom: 0px;
     position: relative;
 }
 
@@ -48,6 +49,7 @@ body{
     z-index: 3;
     flex-direction: row;
     justify-content: flex-start;
+    max-height: 450px;
 }
   
 .header ul {
@@ -218,7 +220,7 @@ h5{
     background-color:#014040;
 }
 main{
-    max-width: 1250px;
+    max-width: 1050px;
     background-color: white;
     text-align: center;
     margin-left: auto;
@@ -252,6 +254,16 @@ main{
 #pop-container{
     --bs-gutter-x: -0.2rem;
 }
+button a{
+    text-decoration: none;
+    color: #731702;
+}
+button a:hover{
+    font-size: 20px;
+    color: #232A31;
+}
+
+
 #pop-container img{
     min-height: 600px;
 }
@@ -269,11 +281,14 @@ div.card.h-100{
 }
 .card-title{
     background-color: #232A31;
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 35px;
     border-radius: 40px 0px 50px 0px;
+    max-width: 400px;
 }
 .card-body p{
     color: white;
+    font-size: 1.3vw;
 }
 .card-body h5{
     color: white;
@@ -391,7 +406,7 @@ footer p a:hover{
     margin-right: auto;
     margin-left: auto;
 }
-:focus{
+.form-control:focus{
     animation: focusanimation 5s ease-in-out 0.5s infinite alternate forwards;
 }
 
