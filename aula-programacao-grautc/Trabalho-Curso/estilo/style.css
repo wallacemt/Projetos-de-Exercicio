@@ -386,7 +386,7 @@ footer p a:hover{
     
 }
 
-#exampleInputPassword1{
+#exampleInputPassword1,#exampleInputPassword2 {
     width: 300px;
     margin-right: auto;
     margin-left: auto;
