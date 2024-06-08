@@ -251,12 +251,12 @@ function showSucessMessage() {
   let scoreImg = document.getElementById("img-score");
   let msgResultado = document.getElementById("result")
   if(score > 90){
-    scoreImg.style.backgroundImage = 'url(../img/boa.gif)';
+    scoreImg.style.backgroundImage = 'url(https://itunes.apple.com/app/apple-store/id917932200?pt=39040802&ct=Media1GIFV2&mt=8)';
   }else if(score >= 50 && score <= 90){
-    scoreImg.style.backgroundImage = 'url(../img/medio.gif)';
+    scoreImg.style.backgroundImage = 'url(https://c.tenor.com/VTTHQZmJSUUAAAAC/tenor.gif)';
     msgResultado.innerText = "Podia ter sido melhor..."
   }else{
-    scoreImg.style.backgroundImage = 'url(../img/ruim.gif)';
+    scoreImg.style.backgroundImage = 'url(https://c.tenor.com/80qRd3Ge0z4AAAAd/tenor.gif)';
     msgResultado.innerText = "Decepcionante..."
   }
 }
