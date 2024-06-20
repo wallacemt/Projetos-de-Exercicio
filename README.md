@@ -50,7 +50,7 @@ Recriação de uma página do site da Apple que antes tinha apenas HTML e CSS. M
 <a href="https://wallacemt.github.io/Projetos-de-Exercicio/Projeto-pagina-apple/index.html">Para acessar, clique aqui</a>
 
 ## 📕 Projeto: Cardápio
-Criação de um cardápio básico de um restaurante fictício, esse cardápio fiz usando o React, para conseguir apesar tera que clonar o repositorio para testar.
+Criação de um cardápio básico de um restaurante fictício, esse cardápio fiz usando o React, para conseguir acessar tera que clonar o repositorio.
 
     Tecnologias usadas
     - React
